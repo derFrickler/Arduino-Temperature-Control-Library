@@ -5,15 +5,19 @@
   "repository":
   {
     "type": "git",
-    "url": "https://github.com/milesburton/Arduino-Temperature-Control-Library.git"
+    "url": "https://github.com/derFrickler/Arduino-Temperature-Control-Library.git"
   },
   "authors": 
   [
     {
+      "name": "modified by Johannes Hermen",
+      "email": "schreibmirwas@der-frickler.net",
+      "maintainer": true
+    },
+    {
       "name": "Miles Burton",
       "email": "miles@mnetcs.com",
-      "url": "http://www.milesburton.com",
-      "maintainer": true
+      "url": "http://www.milesburton.com"
     },
     {
       "name": "Tim Newsome",
