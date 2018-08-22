@@ -536,6 +536,12 @@ float DallasTemperature::getTempF(const uint8_t* deviceAddress) {
 	return rawToFahrenheit(getTemp(deviceAddress));
 }
 
+// convenience method to use one command to trigger measurement and return temp in ° Celsius.
+float DallasTemperature::readTempCByIndex(uint8_t deviceIndex) {
+	requestTemperatures(); // Send the command to get temperatures
+	return getTempCByIndex(deviceIndex); // return Temp °C for given sensor index.
+}
+
 // returns true if the bus requires parasite power
 bool DallasTemperature::isParasitePowerMode(void) {
 	return parasite;
