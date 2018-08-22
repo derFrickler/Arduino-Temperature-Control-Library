@@ -1,3 +1,5 @@
+modified for convenience with kniwwelino-blockly.
+
 # Arduino Library for Maxim Temperature Integrated Circuits
 
 ## Usage
