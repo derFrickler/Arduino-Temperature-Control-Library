@@ -129,6 +129,9 @@ public:
 	bool isConversionComplete(void);
 
 	int16_t millisToWaitForConversion(uint8_t);
+	
+	// measure and return temperature for device index (slow)
+	float readTempCByIndex(uint8_t);
 
 #if REQUIRESALARMS
 
